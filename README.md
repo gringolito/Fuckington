@@ -1,5 +1,4 @@
-# Fuckington
-Fuckington Design Pattern
+# Fuckington Design Pattern
 
 The Fuckington desing pattern defines a class where the ONLY way to use it
 is by implementing a class named FUCK (yes, the uppercase word 'fuck') in
