@@ -7,8 +7,8 @@
 
 class FUCK {
    public:
-    FUCK(){};
-    virtual ~FUCK(){};
+    FUCK() = default;
+    virtual ~FUCK() = default;
 
     int Sum(int a, int b)
     {

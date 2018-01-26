@@ -15,5 +15,24 @@ will have an instance of the Fuckington.
 In the FUCK class the user can expose the private methods and/or members
 whatever he wants. The FUCK class can combine how many Fuckingtons you want.
 
-You can see a Fuckington example in the "fuckington.h" file included in this
-Git repository and also the Fuckinton usage in the "example.cc"
+A Fuckington class will look like this:
+
+```cpp
+class FUCK;
+
+class MyFuckington final {
+    friend class FUCK;
+
+   private:
+    MyFuckington() = default;
+    ~MyFuckington() = default;
+
+    int MyFuckingSum(int a, int b)
+    {
+        return a + b;
+    }
+};
+```
+
+You can see a full Fuckington example in the "fuckington.h" file included in
+this Git repository and also the Fuckinton usage in the "example.cc" file.

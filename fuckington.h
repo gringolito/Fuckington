@@ -29,8 +29,8 @@ class MyFuckington final {
     friend class FUCK;
 
    private:
-    MyFuckington(){};
-    ~MyFuckington(){};
+    MyFuckington() = default;
+    ~MyFuckington() = default;
 
     int MyFuckingSum(int a, int b)
     {
